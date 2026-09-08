@@ -14,12 +14,26 @@ public class NumberRiddle {
         double negDouble = -6.7;
         double negDoubleCopy = -6.7;
 
+        System.out.println(intPos);
+        System.out.println(intNeg);
+        System.out.println(zeroTest);
+        System.out.println(oneTest);
+        System.out.println(posDouble);
+        System.out.println(negDouble);
+
         intPos *= 2;
         intNeg *= 2;
         zeroTest *= 2;
         oneTest *= 2;
         posDouble *= 2;
         negDouble *= 2;
+
+        System.out.println(intPos);
+        System.out.println(intNeg);
+        System.out.println(zeroTest);
+        System.out.println(oneTest);
+        System.out.println(posDouble);
+        System.out.println(negDouble);
 
         intPos += 6;
         intNeg += 6;
@@ -28,6 +42,13 @@ public class NumberRiddle {
         posDouble += 6;
         negDouble += 6;
 
+        System.out.println(intPos);
+        System.out.println(intNeg);
+        System.out.println(zeroTest);
+        System.out.println(oneTest);
+        System.out.println(posDouble);
+        System.out.println(negDouble);
+
         intPos /= 2;
         intNeg /= 2;
         zeroTest /= 2;
@@ -35,11 +56,25 @@ public class NumberRiddle {
         posDouble /= 2;
         negDouble /= 2;
 
+        System.out.println(intPos);
+        System.out.println(intNeg);
+        System.out.println(zeroTest);
+        System.out.println(oneTest);
+        System.out.println(posDouble);
+        System.out.println(negDouble);
+
         intPos -= intPosCopy;
         intNeg -= intNegCopy;
         zeroTest -= zeroTestCopy;
         oneTest -= oneTestCopy;
         posDouble -= posDoubleCopy;
         negDouble -= negDoubleCopy;
+
+        System.out.println(intPos);
+        System.out.println(intNeg);
+        System.out.println(zeroTest);
+        System.out.println(oneTest);
+        System.out.println(posDouble);
+        System.out.println(negDouble);
     }
 }
