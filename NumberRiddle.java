@@ -75,6 +75,6 @@ public class NumberRiddle {
         System.out.println(zeroTest);
         System.out.println(oneTest);
         System.out.println(posDouble);
-        System.out.println(negDouble);
+        System.out.println((int) negDouble);
     }
 }
