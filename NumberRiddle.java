@@ -9,8 +9,8 @@ public class NumberRiddle {
         int zeroTestCopy = 0;
         int oneTest = 1;
         int oneTestCopy = 1;
-        double posDouble = 6.7;
-        double posDoubleCopy = 6.7;
+        double posDouble = 9.7;
+        double posDoubleCopy = 9.7;
         double negDouble = -6.7;
         double negDoubleCopy = -6.7;
 
@@ -75,6 +75,6 @@ public class NumberRiddle {
         System.out.println(zeroTest);
         System.out.println(oneTest);
         System.out.println(posDouble);
-        System.out.println((int) negDouble);
+        System.out.println(negDouble);
     }
 }
