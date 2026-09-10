@@ -4,6 +4,7 @@ public class NumberRiddle {
     public static void main(String[] args) {
         // starting number and test cases (integers and doubles) defined, as well as their copies for final calculations.
         int startingNumber = 20;
+        int startingNumberCopy = 20;
         int intPos = 2;
         int intPosCopy = 2;
         int intNeg = -2;
@@ -17,6 +18,7 @@ public class NumberRiddle {
         double negDouble = -6.7;
         double negDoubleCopy = -6.7;
         // print out the original values.
+        System.out.println(startingNumber);
         System.out.println(intPos);
         System.out.println(intNeg);
         System.out.println(zeroTest);
@@ -24,6 +26,7 @@ public class NumberRiddle {
         System.out.println(posDouble);
         System.out.println(negDouble);
         // multiply all values by 2.
+        startingNumber *= 2;
         intPos *= 2;
         intNeg *= 2;
         zeroTest *= 2;
@@ -31,6 +34,7 @@ public class NumberRiddle {
         posDouble *= 2;
         negDouble *= 2;
         /// print out the product by multiplying by 2.
+        System.out.println(startingNumber);
         System.out.println(intPos);
         System.out.println(intNeg);
         System.out.println(zeroTest);
@@ -38,6 +42,7 @@ public class NumberRiddle {
         System.out.println(posDouble);
         System.out.println(negDouble);
         // add 6 to all values.
+        startingNumber += 6;
         intPos += 6;
         intNeg += 6;
         zeroTest += 6;
@@ -45,6 +50,7 @@ public class NumberRiddle {
         posDouble += 6;
         negDouble += 6;
         // print out the result of adding by 6.
+        System.out.println(startingNumber);
         System.out.println(intPos);
         System.out.println(intNeg);
         System.out.println(zeroTest);
@@ -52,6 +58,7 @@ public class NumberRiddle {
         System.out.println(posDouble);
         System.out.println(negDouble);
         // divide all values by 2.
+        startingNumber /= 2;
         intPos /= 2;
         intNeg /= 2;
         zeroTest /= 2;
@@ -59,6 +66,7 @@ public class NumberRiddle {
         posDouble /= 2;
         negDouble /= 2;
         // print out the results by dividing by 2.
+        System.out.println(startingNumber);
         System.out.println(intPos);
         System.out.println(intNeg);
         System.out.println(zeroTest);
@@ -66,13 +74,15 @@ public class NumberRiddle {
         System.out.println(posDouble);
         System.out.println(negDouble);
         // subtract the original value, using the copy variable, from all current values.
+        startingNumber -= startingNumberCopy;
         intPos -= intPosCopy;
         intNeg -= intNegCopy;
         zeroTest -= zeroTestCopy;
         oneTest -= oneTestCopy;
         posDouble -= posDoubleCopy;
         negDouble -= negDoubleCopy;
-        // print out the final result.
+        // print out the final results.
+        System.out.println(startingNumber);
         System.out.println(intPos);
         System.out.println(intNeg);
         System.out.println(zeroTest);
