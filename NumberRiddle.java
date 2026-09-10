@@ -2,7 +2,8 @@
 public class NumberRiddle {
     // main method for the class.
     public static void main(String[] args) {
-        // starting number and test cases (integers and doubles) defined, as well as their copies for final calculations.
+        // starting number and test cases (integers and doubles) defined, as well as
+        // their copies for final calculations.
         int startingNumber = 20;
         int startingNumberCopy = 20;
         int intPos = 2;
@@ -25,6 +26,7 @@ public class NumberRiddle {
         System.out.println(oneTest);
         System.out.println(posDouble);
         System.out.println(negDouble);
+        System.out.println("\n");
         // multiply all values by 2.
         startingNumber *= 2;
         intPos *= 2;
@@ -41,6 +43,7 @@ public class NumberRiddle {
         System.out.println(oneTest);
         System.out.println(posDouble);
         System.out.println(negDouble);
+        System.out.println("\n");
         // add 6 to all values.
         startingNumber += 6;
         intPos += 6;
@@ -57,6 +60,7 @@ public class NumberRiddle {
         System.out.println(oneTest);
         System.out.println(posDouble);
         System.out.println(negDouble);
+        System.out.println("\n");
         // divide all values by 2.
         startingNumber /= 2;
         intPos /= 2;
@@ -73,7 +77,9 @@ public class NumberRiddle {
         System.out.println(oneTest);
         System.out.println(posDouble);
         System.out.println(negDouble);
-        // subtract the original value, using the copy variable, from all current values.
+        System.out.println("\n");
+        // subtract the original value, using the copy variable, from all current
+        // values.
         startingNumber -= startingNumberCopy;
         intPos -= intPosCopy;
         intNeg -= intNegCopy;
@@ -87,7 +93,7 @@ public class NumberRiddle {
         System.out.println(intNeg);
         System.out.println(zeroTest);
         System.out.println(oneTest);
-        System.out.println(posDouble);
-        System.out.println(negDouble);
+        System.out.println((int) posDouble);
+        System.out.println((int) negDouble);
     }
 }
